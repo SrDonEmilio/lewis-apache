@@ -62,8 +62,9 @@ a img{
 
 
 .android-logo-image {
-  height: 28px;
+  height: auto;
   width: 140px;
+  margin-top: -5px;
 }
 
 
@@ -167,7 +168,7 @@ a img{
 
   .android-drawer .mdl-layout-title {
     position: relative;
-    background: #6ab344;
+    background: #84533f;
     height: 160px;
   }
 
@@ -305,12 +306,11 @@ a img{
     z-index: 1;
   }
 
-
 .android-wear-section {
   position: relative;
   background: url('images/wear.png') center top no-repeat;
-  background-size: cover;
-  height: 800px;
+  background-size: contain;
+  height: 500px;
 }
 
 .android-wear-band {
