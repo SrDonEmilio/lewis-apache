@@ -341,7 +341,7 @@ a img{
 
   .android-link .material-icons {
     position: relative;
-    top: 6px;
+    top: -1px;
   }
 
 .android-alt-link {
