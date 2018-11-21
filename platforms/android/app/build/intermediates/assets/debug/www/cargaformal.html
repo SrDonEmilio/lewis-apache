@@ -32,9 +32,8 @@
     <style>
     .mdl-textfield {
         padding-right: 10px;
-        display: table-cell;
     }
-    
+
     </style>
   </head>
   <body>
@@ -80,7 +79,6 @@
           <a class="mdl-navigation__link" href="estructuras.html">Estructuras de Lewis</a>
           <a class="mdl-navigation__link" href="cargaformal.html">Carga Formal</a>
           <a class="mdl-navigation__link" href="geometria.html">Geometría Molecular</a>
-          <a class="mdl-navigation__link" href="">...</a>
           <a class="mdl-navigation__link" href="interes.html">Sitios de Interés</a>
           <a class="mdl-navigation__link" href="about.html">Acerca de</a>
           <div class="android-drawer-separator"></div>
@@ -91,9 +89,25 @@
         <a name="top"></a>
           <div class="demo-content mdl-color--white mdl-shadow--4dp content mdl-color-text--grey-800 mdl-cell mdl-cell--8-col">
                 <div style="margin: 15px; text-align: center;">
+                    <div class="logo-font android-slogan">Teoría</div>
+                    <p style="text-align: left"><br />
+                      <center><img style="width: 100%; height: auto;" src="images/cargaaf.png" width="600" height="400"></center><br />
+                      <b>¿Qué es la Carga Formal?</b><br /><br />
+
+Es la carga que tendria un atomo sino hubiera diferencias de electronegatividad entre los atomos que forman un enlace. Es decir seria la carga que tendria el atomo si este enlace se rompiese.
+<br /><br />
+Dicha carga se calcula con la siguiente formula:
+<br /><br />
+<b># Electrones de valencia - (# Electrones libres + 1/2 Enlaces)</b>
+<br /><br />
+Un método alternativo para obtener la carga de un átomo tomando en cuenta la electronegatividad es por su número de oxidación.</p>
+                </div>
+            </div>
+          <div class="demo-content mdl-color--white mdl-shadow--4dp content mdl-color-text--grey-800 mdl-cell mdl-cell--8-col">
+                <div style="margin: 15px; text-align: center;">
                     <div class="logo-font android-slogan">Carga Formal</div>
                     <div class="logo-font android-sub-slogan">
-                        <p>Introduzca los siguientes Datos</p> 
+                        <p>Introduzca los siguientes Datos</p>
                         <!-- Numeric Textfield -->
                         <form action="javascript:void(0)">
                          <div class="mdl-textfield mdl-js-  textfield">
@@ -111,7 +125,7 @@
                             <label class="mdl-textfield__label" for="eenlace"># Electrones de Enlace</label>
                             <span class="mdl-textfield__error">Input is not a number!</span>
                             </div><br>
-                            <button id="calc-cf" class="mdl-button mdl-js-button mdl-button--raised mdl-js-ripple-effect mdl-button--accent" href="javascript:void(0)">
+                            <button id="calc-cf" class="mdl-button mdl-js-button mdl-button--raised mdl-js-ripple-effect mdl-button--colored" href="javascript:void(0)">
                             Calcular
                             </button>
                             </form>
@@ -120,9 +134,9 @@
                 </div>
             </div>
         <div class="android-be-together-section mdl-typography--text-center" style="background: #f6f6f6; height: 100%;">
-            
-            
-          
+
+
+
 
           <a href="#screens">
             <button class="android-fab mdl-button mdl-button--colored mdl-js-button mdl-button--fab mdl-js-ripple-effect">
