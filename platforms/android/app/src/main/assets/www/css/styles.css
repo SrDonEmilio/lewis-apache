@@ -549,3 +549,14 @@ a img{
 div#gifSection img {
     margin-bottom: 30px;
 }
+.imgGif{
+  display: none;
+}
+.item-title {
+    height: 50px;
+    font-size: 20px;
+    font-weight: bold;
+    line-height: 50px;
+    border: 1px solid #bebebe;
+    cursor: pointer;
+}
