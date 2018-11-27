@@ -1,4 +1,4 @@
-#Wed Nov 21 14:38:16 CST 2018
+#Thu Nov 22 10:17:26 CST 2018
 base.0=C\:\\Users\\Safeboot\\EmilioMtzJua\\Dev\\Cordova\\LewisApp\\Lewis\\platforms\\android\\app\\build\\intermediates\\transforms\\dexMerger\\debug\\0
 path.0=classes.dex
 renamed.0=classes.dex
