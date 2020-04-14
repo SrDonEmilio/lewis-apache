@@ -1,0 +1,61 @@
+{
+  "numero de electrones": {
+    "2": [{ "nombre": "Lineal", "img": "/images/giff/Lineal.gif" }],
+    "3": [
+      {
+        "nombre": "Trigonal Plana",
+        "img": "/images/giff/Trigonal Plana.gif"
+      },
+      {
+        "nombre": "Angular",
+        "img": "/images/giff/angular.gif"
+      }
+    ],
+    "4": [
+      {
+        "nombre": "Tetraedrica",
+        "img": "/images/giff/Tetraedrica.gif"
+      },
+      {
+        "nombre": "Piramidal Trigonal",
+        "img": "/images/giff/piramidal trigonal.gif"
+      },
+      {
+        "nombre": "Angular",
+        "img": "/images/giff/algular1.gif"
+      }
+    ],
+    "5": [
+      {
+        "nombre": "Bipiramidal",
+        "img": "/images/giff/Bipiramidal Trigonal.gif"
+      },
+      {
+        "nombre": "Tetraedtro Distorcionado",
+        "img": "/images/giff/tetraedro distorsionado.gif"
+      },
+      {
+        "nombre": "Forma de T",
+        "img": "/images/giff/forma de T1.gif"
+      },
+      {
+        "nombre": "Lineal",
+        "img": "/images/giff/Lineal 1.gif"
+      }
+    ],
+    "6": [
+      {
+        "nombre": "Octaedrica",
+        "img": "/images/giff/Octaedrica.gif"
+      },
+      {
+        "nombre": "Piramidal Cuadrada",
+        "img": "/images/giff/Priramidal Cuadrada.gif"
+      },
+      {
+        "nombre": "Piramidal Cuadrada",
+        "img": "/images/giff/Cuadrada Plana (2).gif"
+      }
+    ]
+  }
+}
