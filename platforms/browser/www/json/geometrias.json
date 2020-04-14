@@ -1,0 +1,61 @@
+{
+    "numero de electrones" : {
+        "2": [
+            {"nombre" : "lineal",
+            "img" : "images/giff/Lineal.gif" }
+        ],
+        "3": [
+            {
+                "nombre": "trigonal plana",
+                "img": "images/giff/Trigonal Plana.gif"
+            },
+            {
+                "nombre": "angular",
+                "img": "images/giff/angular.gif"
+            }
+        ],
+        "4": [
+            {
+                "nombre": "tetraedrica",
+                "img": "images/giff/Tetraedrica.gif"
+            },
+            {
+                "nombre": "piramidal trigonal",
+                "img": "images/giff/piramidal trigonal.gif"
+            },
+            {
+                "nombre": "angular",
+                "img": "images/giff/algular1.gif"
+            }
+        ],
+        "5": [
+            {
+                "nombre": "bipiramidal",
+                "img": "images/giff/Bipiramidal Trigonal.gif"
+            },
+            {
+                "nombre": "tetraedtro distorcionado", 
+                "img": "images/giff/tetraedro distorsionado.gif"
+            },
+            {
+                "nombre": "forma de t",
+                "img": "images/giff/forma de T1.gif"
+            },{
+                "nombre": "lineal",
+                "img": "images/giff/Lineal 1.gif"
+            }
+        ],
+        "6": [
+            {
+                "nombre": "octaedrica",
+                "img": "images/giff/Octaedrica.gif"
+            },
+            {
+                "nombre": "piramidal cuadrada",
+                "img": "images/giff/Priramidal Cuadrada.gif"
+            }
+            
+        ]
+    }
+
+}

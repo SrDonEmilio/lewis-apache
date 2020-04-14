@@ -1,0 +1,11 @@
+{
+  "background_color": "#FFF",
+  "display": "standalone",
+  "name": "Lewis",
+  "short_name": "Lewis",
+  "version": "io.github.emiliomtzjua.lewis",
+  "description": "A sample Apache Cordova application that responds to the deviceready event.",
+  "author": "EmilioMtzJua",
+  "icons": [],
+  "start_url": "index.html"
+}
