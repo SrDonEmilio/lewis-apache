@@ -112,4 +112,4 @@ dist
 .yarn/cache
 .yarn/unplugged
 .yarn/build-state.yml
-.pnp.*
+.pnp.*node_modules/
