@@ -1,11 +1,11 @@
 <?xml version='1.0' encoding='utf-8'?>
-<widget id="io.github.emiliomtzjua.lewis" version="1.0.0" xmlns="http://www.w3.org/ns/widgets" xmlns:cdv="http://cordova.apache.org/ns/1.0">
+<widget id="dev.nextup.lewis" version="1.0.0" xmlns="http://www.w3.org/ns/widgets" xmlns:cdv="http://cordova.apache.org/ns/1.0">
     <name>Lewis</name>
     <description>
         A sample Apache Cordova application that responds to the deviceready event.
     </description>
-    <author email="emiliomartinezj@hotmail.com" href="https://emiliomtzjua.github.io">
-        EmilioMtzJua
+    <author email="dev@cordova.apache.org" href="http://cordova.io">
+        Apache Cordova Team
     </author>
     <content src="index.html" />
     <plugin name="cordova-plugin-whitelist" spec="1" />
@@ -17,20 +17,10 @@
     <allow-intent href="mailto:*" />
     <allow-intent href="geo:*" />
     <platform name="android">
-        <icon density="mdpi" src="res/icon/android/icon-36-ldpi.png" />
-        <icon density="ldpi" src="res/icon/android/icon-48-mdpi.png" />
-        <icon density="hdpi" src="res/icon/android/icon-72-hdpi.png" />
-        <icon density="xhdpi" src="res/icon/android/icon-96-xhdpi.png" />
-        <icon density="xxhdpi" src="res/icon/android/icon-144-xxhdpi.png" />
-        <icon density="xxxhdpi" src="res/icon/android/icon-192-xxxhdpi.png" />
-    </platform>
-    <platform name="android">
         <allow-intent href="market:*" />
     </platform>
     <platform name="ios">
         <allow-intent href="itms:*" />
         <allow-intent href="itms-apps:*" />
     </platform>
-    <plugin name="cordova-plugin-inappbrowser" spec="^3.0.0" />
-    <engine name="android" spec="^7.1.1" />
 </widget>
