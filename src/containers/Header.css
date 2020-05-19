@@ -1,0 +1,22 @@
+img#logo {
+    max-width: 80%;
+    max-height: 50px;
+    margin: 10px 0 0;
+}
+#logo-menu {
+    background-color: #84533f;
+}
+#logo-menu img{
+    position: relative;
+    max-width: 80%;
+    margin: 15px;
+    filter: brightness(0) invert(1);
+}
+.MuiAppBar-colorPrimary {
+    background-color: #fff !important;
+    color: #000 !important;
+}
+a {
+    text-decoration: none !important;
+    color: #000 !important;
+}
