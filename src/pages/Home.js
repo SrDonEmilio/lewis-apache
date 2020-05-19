@@ -1,12 +1,8 @@
 import React from "react";
 
-import Header from "../containers/Header";
-
 const Home = () => {
   return (
     <div>
-      <Header />
-      <div id="container">
         <p>
           <b>Gilbert N. Lewis</b>
           <br />
@@ -68,7 +64,6 @@ const Home = () => {
           mollis egestas. Fusce quis magna erat. Phasellus faucibus est eget
           congue ultrices.
         </p>
-      </div>
     </div>
   );
 };

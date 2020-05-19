@@ -1,7 +1,6 @@
 import React from "react";
-import PropTypes from "prop-types";
-
 import clsx from "clsx";
+
 import { makeStyles } from "@material-ui/core/styles";
 import AppBar from "@material-ui/core/AppBar";
 import Toolbar from "@material-ui/core/Toolbar";
@@ -15,10 +14,7 @@ import ListItem from "@material-ui/core/ListItem";
 import useScrollTrigger from "@material-ui/core/useScrollTrigger";
 import Slide from "@material-ui/core/Slide";
 import CssBaseline from "@material-ui/core/CssBaseline";
-import ListItemIcon from "@material-ui/core/ListItemIcon";
 import ListItemText from "@material-ui/core/ListItemText";
-import InboxIcon from "@material-ui/icons/MoveToInbox";
-import MailIcon from "@material-ui/icons/Mail";
 
 import "./Header.css";
 
@@ -38,15 +34,6 @@ function HideOnScroll(props) {
   );
 }
 
-HideOnScroll.propTypes = {
-  children: PropTypes.element.isRequired,
-  /**
-   * Injected by the documentation to work in an iframe.
-   * You won't need it on your project.
-   */
-  window: PropTypes.func,
-};
-
 const useStyles = makeStyles({
   list: {
     width: 250,
@@ -56,7 +43,7 @@ const useStyles = makeStyles({
   },
 });
 
-export default function SwipeableTemporaryDrawer(props) {
+const Header = (props) => {
   const classes = useStyles();
   const [state, setState] = React.useState({
     top: false,
@@ -73,8 +60,12 @@ export default function SwipeableTemporaryDrawer(props) {
     ) {
       return;
     }
-
     setState({ ...state, [anchor]: open });
+  };
+  const clickinmeeeeee = (string, anchor) => {
+    props.onChange(string);
+    toggleDrawer(anchor, false);
+    return;
   };
 
   const list = (anchor) => (
@@ -90,22 +81,42 @@ export default function SwipeableTemporaryDrawer(props) {
         <img src={logo} alt="logo-menu" />
       </div>
       <List>
-        <ListItem button key="inicio">
+        <ListItem
+          button
+          key="inicio"
+          onClick={(e) => clickinmeeeeee("Home", anchor)}
+        >
           <ListItemText primary="Inicio" />
         </ListItem>
-        <ListItem button key="carga">
+        <ListItem
+          button
+          key="carga"
+          onClick={(e) => clickinmeeeeee("Carga", anchor)}
+        >
           <ListItemText primary="Carga Formal" />
         </ListItem>
-        <ListItem button key="geomtrias">
+        <ListItem
+          button
+          key="geometrias"
+          onClick={(e) => clickinmeeeeee("Geometrias", anchor)}
+        >
           <ListItemText primary="Geometrías Moleculares" />
         </ListItem>
       </List>
       <Divider />
       <List>
-        <ListItem button key="reference">
+        <ListItem
+          button
+          key="references"
+          onClick={(e) => clickinmeeeeee("References", anchor)}
+        >
           <ListItemText primary="Sitios de Interés" />
         </ListItem>
-        <ListItem button key="about">
+        <ListItem
+          button
+          key="about"
+          onClick={(e) => clickinmeeeeee("About", anchor)}
+        >
           <ListItemText primary="Acerca de" />
         </ListItem>
       </List>
@@ -149,4 +160,6 @@ export default function SwipeableTemporaryDrawer(props) {
       <Toolbar />
     </div>
   );
-}
+};
+
+export default Header;
