@@ -1,4 +1,4 @@
-import React, { useState, useEffect } from "react";
+import React, { useState } from "react";
 
 import Home from "./pages/Home";
 import Carga from "./pages/CargaFormal";
@@ -8,12 +8,12 @@ import About from "./pages/About";
 
 import Header from "./containers/Header";
 
+import Box from "@material-ui/core/Box";
+
+import "./App.css";
+
 const App = () => {
   const [view, setView] = useState("Home");
-
-  useEffect(() => {
-    console.log(view);
-  });
 
   let currentContent;
 
@@ -40,7 +40,9 @@ const App = () => {
   return (
     <div className="App">
       <Header onChange={(string) => setView(string)} />
-      <div id="container">{currentContent}</div>
+      <Box>
+        <div id="container">{currentContent}</div>
+      </Box>
     </div>
   );
 };
