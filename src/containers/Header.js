@@ -143,7 +143,7 @@ const Header = (props) => {
                 </IconButton>
                 <SwipeableDrawer
                   anchor="left"
-                  open={state[anchor]}
+                  open={state[anchor] === undefined ? false : state[anchor]}
                   onClose={toggleDrawer(anchor, false)}
                   onOpen={toggleDrawer(anchor, true)}
                 >

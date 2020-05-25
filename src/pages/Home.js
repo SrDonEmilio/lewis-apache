@@ -8,9 +8,9 @@ const Home = () => {
       <h2>Bienvenido a "La Química Formal"</h2>
       <p>
         En este pequeño rincón del conocimiento, encontrarás las herramientas
-        necesarias para ponerte al dia en tu clase de quimica. Podreis encontrar
-        desde contenido teorico en donde aclarar dudas que puedan surgir durante
-        los calculos de "carga formal" o bien "Tipos de Estructruras". Tendreis
+        necesarias para ponerte al dia en tu clase de quimica. Podrás encontrar,
+        desde contenido teórico en donde aclarar dudas que puedan surgir durante
+        los cálculos de "carga formal" o bien "Tipos de Estructruras". Tendrás
         la oportunidad de entender y ver la geometria molecular de una manera
         más didactica.
       </p>

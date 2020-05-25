@@ -31,17 +31,17 @@
 p {
   padding: 0 20px;
   font-size: 16px;
-  text-align: left !important;  
+  text-align: left !important;
 }
 
-p, span, button, h1, h2, h3, h4, h5, h6 {
+* {
   color: #767777;
   -webkit-touch-callout: none; /* iOS Safari */
   -webkit-user-select: none; /* Safari */
-   -khtml-user-select: none; /* Konqueror HTML */
-     -moz-user-select: none; /* Old versions of Firefox */
-      -ms-user-select: none; /* Internet Explorer/Edge */
-          user-select: none; /* Non-prefixed version, currently
+  -khtml-user-select: none; /* Konqueror HTML */
+  -moz-user-select: none; /* Old versions of Firefox */
+  -ms-user-select: none; /* Internet Explorer/Edge */
+  user-select: none; /* Non-prefixed version, currently
                                 supported by Chrome, Edge, Opera and Firefox */
 }
 
@@ -51,6 +51,30 @@ p.center {
 
 img {
   max-width: 90%;
+}
+
+.title-reference {
+  text-align: left;
+}
+
+.source-reference {
+  padding-left: 0 !important;
+}
+
+.MuiCard-root {
+  margin: 10px 20px !important;
+}
+img#logo-about {
+  width: 100px;
+}
+
+div#container {
+  margin: 0 10px;
+}
+p.ecuation {
+  text-align: center;
+  font-size: 13px;
+  font-style: italic;
 }
 
 @keyframes App-logo-spin {
