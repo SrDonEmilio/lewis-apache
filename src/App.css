@@ -76,6 +76,10 @@ p.ecuation {
   font-size: 13px;
   font-style: italic;
 }
+.grid-container > div {
+  display: inline-grid;
+  width: 300px;
+}
 
 @keyframes App-logo-spin {
   from {

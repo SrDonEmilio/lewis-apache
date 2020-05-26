@@ -63,7 +63,7 @@ const data = [
 
 const Geometrias = () => {
   return (
-    <div>
+    <div id="references" className="grid-container">
       <h2>¿Qué es la Geometria Molecular?</h2>
       <p>
         La geometría molecular es la distribución espacial de los átomos

@@ -3,7 +3,7 @@ import Reference from "../components/Reference";
 
 const References = () => {
   return (
-    <div id="references">
+    <div id="references" className="grid-container">
       <h2>Sitios de Interés</h2>
       <Reference
         title="Estructuras de Lewis"
