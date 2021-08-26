@@ -115,3 +115,5 @@ dist
 .pnp.*node_modules/
 plugins/
 platforms/
+build/
+www/static/
